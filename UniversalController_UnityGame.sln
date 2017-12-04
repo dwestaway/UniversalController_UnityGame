@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{13966B3C-6843-DA1B-F190-A1760ABEE5AA}") = "UniversalController_UnityGame", "Assembly-CSharp.csproj", "{9ACDBCBE-D656-C9A3-C140-91119962DC23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ACDBCBE-D656-C9A3-C140-91119962DC23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACDBCBE-D656-C9A3-C140-91119962DC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACDBCBE-D656-C9A3-C140-91119962DC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACDBCBE-D656-C9A3-C140-91119962DC23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
