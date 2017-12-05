@@ -6,12 +6,14 @@ public class BallMovement : MonoBehaviour
 {
 
     public float movementSpeed;
+	public float jump;
     private Rigidbody rb;
     
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+		//collider = GetComponent<SphereCollider>();
     }
 
     void Update()
@@ -20,8 +22,13 @@ public class BallMovement : MonoBehaviour
        
         float moveVertical = Input.GetAxis("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 1.0f, moveVertical);
+        Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
         rb.AddForce(movement * movementSpeed);
+
+		if (Input.GetKeyDown (KeyCode.Space)) {
+			
+			rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
+		}
 
 
 
