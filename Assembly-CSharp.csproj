@@ -45,7 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\BallMovement.cs" />
+     <Compile Include="Assets\Sample\Scripts\SamplePlayer.cs" />
+     <Compile Include="Assets\UniversalController\UCCommand.cs" />
+     <Compile Include="Assets\UniversalController\UCNetworkManager.cs" />
+     <Compile Include="Assets\UniversalController\UCPlayer.cs" />
+     <Compile Include="Assets\UniversalController\UCServer.cs" />
+     <Compile Include="Assets\UniversalController\Utilities\DebugUtilities.cs" />
+     <Compile Include="Assets\UniversalController\Utilities\Dispatcher.cs" />
+     <Compile Include="Assets\UniversalController\Utilities\GeneralUtilities.cs" />
+     <Compile Include="Assets\UniversalController\Utilities\NetworkUtilities.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
